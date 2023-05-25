@@ -1,5 +1,10 @@
 import pygame
 import os,sys,time
+...
+
+Criando os Retangolos do Jogo
+
+...
 pygame.init()
 width, height = 1200, 650
 display = pygame.display.set_mode((width, height))
@@ -7,7 +12,7 @@ pygame.display.set_caption("N A S A")
 
 nave = pygame.image.load(os.path.join("assets","img","ship.png")).convert_alpha()
 nave = pygame.transform.scale(nave,(40,40))
-#Aula 10 de maio
+
 navRec = nave.get_rect(center=(500,500))
 print(navRec)
 
